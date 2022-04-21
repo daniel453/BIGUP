@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(31, 41, 55);
+}
+
+form .inputBx{
+    margin: 0 6px;
+}
+form .inputBx p{
+    margin-bottom: 5px;
+}
+form .inputBx p.white{
+    color: rgba(73, 94, 124, 0.089);
+}
+form .inputBx input{
+    border: 1px solid #222;
+    outline: none;
+    padding: 7px;
+    width: 100%;
+    font-size: 0.8em;
+}
+form .inputBx input{
+    border: 1px solid #222;
+    outline: none;
+    padding: 7px;
+    width: 180px;
+    font-size: 0.8em;
+}
+
+form .inputBx select{
+    border: 1px solid #222;
+    outline: none;
+    padding: 7px;
+    width: 180px;
+    font-size: 0.8em;
+}
+form .inputBx input[type="submit"]{
+    outline: none;
+    border: none;
+    background: #B90332;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 5px;
+}
+form .inputBx input[type="submit"]:hover{
+    outline: none;
+    border: none;
+    background: #910125;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tablita{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(52, 73, 94, 0.733);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.274);
+    /* padding: 1px 0px; */
+}
+
+.card2 .table{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid#cccccc ;
+    border-collapse:collapse ;
+ }
+ 
+ .card2 .table th{
+     border-bottom: 1px solid #cccccc;
+     border-right:  1px solid #cccccc;
+     height: 40px;
+     color: #fff;
+ }
+ 
+ .card2 .table td{
+     border-bottom: 1px solid #cccccc;
+     border-right:  1px solid #cccccc;
+     max-width: 60px;
+     height: 100px;
+     padding: 10px;
+     overflow: hidden;
+ }
+ .card2 .table td:nth-child(4){
+     align-items: center;
+ }
+  .card2 .table td:nth-child(4) a{
+     display: flex;
+     justify-content: baseline;
+     align-items: center;
+     margin-bottom: 10px;
+ }
+ .card2 .table td:nth-child(4) .btn-edit{
+     background: #40A40A;
+     color: #111;
+     font-size: 1.2em;
+     padding: 10px;
+     border-radius: 5px;
+     justify-content: center;
+ }
+ .card2 .table td:nth-child(4) .btn-edit:hover{
+     background: #49bb0c;
+     color: #fff;
+ }
+  .card2 .table td:nth-child(4) .btn-elim{
+     background: #A00E0E;
+     color: #111;
+     font-size: 1.5em;
+     padding: 10px ;
+     border-radius: 5px;
+     justify-content: center;
+ }
+  .card2 .table td:nth-child(4) .btn-elim:hover{
+     background: #b41111;
+     color: #fff;
+ }
+ 
